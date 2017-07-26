@@ -72,7 +72,7 @@ function greatherThan(x, y) {
   if (Math.max(x, y) === y) {
     return true
   } else {
-    false
+    return false
   }
 }
 console.log(greatherThan(4, 6));
